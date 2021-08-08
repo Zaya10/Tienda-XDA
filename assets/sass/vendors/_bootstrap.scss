@@ -1,0 +1,76 @@
+
+
+@media only screen and (max-width: 768px) {
+
+  .navigation {
+    width: 100%;
+
+  }
+
+  .navigation ul{
+    display: none;
+  }
+  
+  .navigation ul.show {
+    display: block;
+  }
+
+  .navigation ul li {
+    display: block;
+  }
+  
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem;
+   }
+
+.navigation_logo {
+  margin-bottom: 110px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+  padding: 0.5 1rem;
+  padding-bottom: 5rem;
+}
+.con {
+  margin-left: 100px;
+}
+  .caja {
+    padding: 2rem;
+    height: 220px;
+    width: 700px;
+  
+   }
+
+   .suscribir {
+    writing-mode: vertical-lr;
+    margin-left: 30rem;
+    height: 220px;
+    width: 77px;
+  }
+
+  input {
+    width: 100%;
+  }
+  
+  img {
+    width: 100vh;
+    height: 500px;
+    
+  }
+
+
+}
+
+@media only screen and (min-width: 425px) {
+
+
+
+
+
+
+
+
+}

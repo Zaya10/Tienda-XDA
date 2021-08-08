@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #fff;
+  color: #0C0910;
+  width: 100%;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.navigation_logo {
+  background-color: #0C0910;
+  color: #fff;
+  padding: 27px;
+}
+.navigation_logo h1 {
+  font-size: x-large;
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  display: block;
+  padding: 1rem 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: #0C0910;
+}
+.navigation ul li a:hover {
+  color: red;
+}
+
+label {
+  display: none;
+}
+
+.header {
+  background: #fff;
+  color: #0C0910;
+  width: 100%;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.header a {
+  color: #0C0910;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.button {
+  color: #0C0910;
+  text-decoration: none;
+  list-style: none;
+  border-style: solid;
+  border-color: #0C0910;
+  border-width: 1px;
+  padding: 1rem;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+input {
+  width: 15rem;
+}
+
+.box_container {
+  display: grid;
+  grid-template-columns: 200px 20px;
+  grid-gap: 0px;
+}
+
+.con {
+  padding: 4rem;
+}
+.con h4 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 900;
+  font-size: 50px;
+  column-gap: 1px;
+}
+.con p {
+  font-family: "Raleway", sans-serif;
+  font-size: medium;
+  font-weight: normal;
+  color: #646266;
+  text-align: left;
+}
+
+.suscribir {
+  writing-mode: vertical-lr;
+  margin-left: 27rem;
+  background-color: #fff;
+  text-align: center;
+  height: 295px;
+  width: 77px;
+  margin-top: 20px;
+}
+.suscribir h4 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.caja {
+  background: #0C0910;
+  padding: 5rem;
+  width: 700px;
+  height: 294px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.caja h5 {
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.caja h6 {
+  font-family: "Old Standard TT", serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #D1D1D1;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation {
+    width: 100%;
+  }
+
+  .navigation ul {
+    display: none;
+  }
+
+  .navigation ul.show {
+    display: block;
+  }
+
+  .navigation ul li {
+    display: block;
+  }
+
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .navigation_logo {
+    margin-bottom: 110px;
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+    padding: 0.5 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .con {
+    margin-left: 100px;
+  }
+
+  .caja {
+    padding: 2rem;
+    height: 220px;
+    width: 700px;
+  }
+
+  .suscribir {
+    writing-mode: vertical-lr;
+    margin-left: 30rem;
+    height: 220px;
+    width: 77px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  img {
+    width: 100vh;
+    height: 500px;
+  }
+}
+section {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
